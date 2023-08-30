@@ -1,14 +1,15 @@
+const name = "Strider";
 
-const name  = 'Strider';
-
-let hpPoints: number | 'FULL' = 95;
+let hpPoints: number | "FULL" = 95;
 
 const isAlive: boolean = true;
 
-hpPoints = 'FULL';
+hpPoints = "FULL";
 
 console.log({
-    name, hpPoints, isAlive
-})
+  name,
+  hpPoints,
+  isAlive,
+});
 
-export{}
+export {};

@@ -1,22 +1,22 @@
-const skills: string[] = ['Bash', 'Counter', 'Healing']
+const skills: string[] = ["Bash", "Counter", "Healing"];
 
 interface Character {
-    name: string;
-    hp: number;
-    skills: string[];
-    hometown?: string;
+  name: string;
+  hp: number;
+  skills: string[];
+  hometown?: string;
 }
 
 const strider: Character = {
-    name: 'Strider',
-    hp: 100,
-    skills: ['Bash', 'Counter'],
-}
+  name: "Strider",
+  hp: 100,
+  skills: ["Bash", "Counter"],
+};
 
-strider.hometown = 'Rivendell';
+strider.hometown = "Rivendell";
 
-console.table(strider)
+console.table(strider);
 
-export{}
+export {};
 
 //el signo de interrogacion en la interface permite que la variable hometown sea opcional
